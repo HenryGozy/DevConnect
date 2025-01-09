@@ -1,3 +1,11 @@
+import "./App.css"
+import ProfileForm from "./component/ProfileForm.tsx"
+import SearchFilter from "./component/SearchFilter.tsx"
 export default function App(){
-  return <h2>hey am doing well</h2>
+  return (
+    <>
+    <SearchFilter />
+    <ProfileForm />
+    </>
+  )
 }
