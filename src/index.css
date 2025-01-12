@@ -3,12 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins",Roboto;
+    outline: none;
 }
 
 #root{
-    border: solid blue;
+
+    padding:30px;
 }
 
 body{
-    border:solid red;
+   padding-top: 80px;
 }
